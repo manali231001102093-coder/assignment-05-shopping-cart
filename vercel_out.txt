@@ -1,0 +1,69 @@
+Vercel CLI 59.20.0 (Node.js 20.17.0)
+Loading teams…
+
+  Directory       /media/deepdp/New Volume/Assingment/Saikat/assignment-05-shopping-cart
+
+Searching for existing projects…
+
+  Detected Vite (Build Command: vite build, Output Directory: dist)
+
+✓ Created         assingment1/assignment-05-shopping-cart
+> Connecting GitHub repository: https://github.com/saikatclgassigment2026-coder/assignment-05-shopping-cart
+Error: Failed to link saikatclgassigment2026-coder/assignment-05-shopping-cart. You need to add a Login Connection to your GitHub account first. (400)
+Visit https://vercel.com/docs/accounts/create-an-account#login-methods-and-connections for more information.
+Deploying assingment1/assignment-05-shopping-cart
+Uploading [--------------------] (0.0B/8KB)
+Uploading [=====---------------] (2.2KB/8KB)
+Uploading [==================--] (7.3KB/8KB)
+Uploading [====================] (8.0KB/8KB)
+  Inspect         https://vercel.com/assingment1/assignment-05-shopping-cart/63fcBUEGcJ5L4YgPsE2kemeinoVi
+  Production      https://assignment-05-shopping-cart-kj01wmqzo-assingment1.vercel.app
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 28 deployment files...
+Running "vercel build"
+Vercel CLI 59.23.2
+Installing dependencies...
+Installing dependencies...
+added 25 packages in 3s
+9 packages are looking for funding
+run `npm fund` for details
+Running "npm run build"
+> assignment-05-shopping-cart@0.0.0 build
+> vite build
+[2K[1A[2K[G  Production      https://assignment-05-shopping-cart-kj01wmqzo-assingment1.vercel.app
+Completing…
+▲ Aliased         https://assignment-05-shopping-cart-mu.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_63fcBUEGcJ5L4YgPsE2kemeinoVi",
+    "url": "https://assignment-05-shopping-cart-kj01wmqzo-assingment1.vercel.app",
+    "inspectorUrl": "https://vercel.com/assingment1/assignment-05-shopping-cart/63fcBUEGcJ5L4YgPsE2kemeinoVi",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_63fcBUEGcJ5L4YgPsE2kemeinoVi"
+  },
+  "message": "Deployment assignment-05-shopping-cart-kj01wmqzo-assingment1.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel git connect",
+      "when": "Automatically deploy changes on every push"
+    },
+    {
+      "command": "vercel curl https://assignment-05-shopping-cart-kj01wmqzo-assingment1.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect assignment-05-shopping-cart-kj01wmqzo-assingment1.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}
