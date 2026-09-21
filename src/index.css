@@ -128,7 +128,46 @@ input {
 
 
 
-  .divider { display: none; }
+/* MASSIVE UI OVERRIDE - WHITE & BURGUNDY THEME */
+:root {
+  --primary: #800020 !important;
+  --primary-light: #9e0028 !important;
+  --primary-hover: #5c0017 !important;
+  --secondary: #4a0012 !important;
+  --background: #ffffff !important;
+  --bg-main: #f8fafc !important;
+  --bg-sidebar: #ffffff !important;
+  --surface: #ffffff !important;
+  --bg-card: #ffffff !important;
+  --card-bg: #ffffff !important;
+  --surface-border: #e2e8f0 !important;
+  --border: #e2e8f0 !important;
+  --card-border: #e2e8f0 !important;
+  --text-main: #1e293b !important;
+  --text-muted: #64748b !important;
+  --text-sidebar: #334155 !important;
+  
+  --success: #10b981 !important;
+  --warning: #f59e0b !important;
+  --danger: #ef4444 !important;
+  --shadow: 0 4px 6px -1px rgba(128, 0, 32, 0.1), 0 2px 4px -1px rgba(128, 0, 32, 0.06) !important;
+}
+
+body {
+  background-color: var(--background) !important;
+  color: var(--text-main) !important;
+}
+
+* {
+  border-color: var(--border) !important;
+}
+
+button, a.btn, .btn {
+  background-color: var(--primary) !important;
+  color: #ffffff !important;
+}
+button:hover, a.btn:hover, .btn:hover {
+  background-color: var(--primary-hover) !important;
 }
 
 
